@@ -1,4 +1,3 @@
-# MySQL-HoneyPot[honeypot-project-technical-write-up.md](https://github.com/user-attachments/files/32388631/honeypot-project-technical-write-up.md)
 # Azure Windows and MySQL Honeypot Project
 
 > **Portfolio note:** This project was performed in an isolated cyber-range environment. The intentionally weak configuration described below was used only for controlled observation of attacker behavior. It is not appropriate for production systems.
