@@ -253,7 +253,6 @@ For a confirmed or suspicious Windows logon, investigate the following MDE table
 
 ## Example Attack Narrative Template
 
-Use this structure when writing up observed activity. Replace bracketed values with evidence from your own environment.
 
 > On `[date/time UTC]`, the honeypot was exposed to the internet. At `[date/time UTC]`, `DeviceLogonEvents` recorded a successful `[logon type]` logon to `[device]` using `[account]` from `[source IP]`. Following the logon, `DeviceProcessEvents` showed `[process/command]`, consistent with `[discovery/execution behavior]`. At `[date/time UTC]`, `MySQLAudit_CL` recorded `[username]` connecting from `[source IP]` and executing `[query or query type]` against the `lnp_corp` database. Network telemetry showed `[allowed/denied]` outbound traffic to `[destination:port]`. The sequence is consistent with `[assessment]`; however, the conclusion is limited by `[telemetry gap or uncertainty]`.
 
@@ -324,4 +323,3 @@ For a compromised honeypot, the preferred recovery action is to destroy the VM a
 - `<UTC-exposure-timestamp>`
 - Public IP addresses, Azure subscription IDs, tenant IDs, resource IDs, passwords, and any real database records
 
-Do not publish intentionally weak credentials, active public IP addresses, live resource names, or unredacted investigation-package contents.
