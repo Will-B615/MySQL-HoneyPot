@@ -318,8 +318,3 @@ For a compromised honeypot, the preferred recovery action is to destroy the VM a
 - **Timestamps connect the story.** The exposure time, initial access time, database-query times, and containment time provide the backbone for a defensible incident narrative.
 - **Rebuild is often safer than clean.** A purposely compromised honeypot should generally be treated as untrusted; rebuilding and restoring data is often more reliable than attempting to remediate every possible change.
 
-
-- `<honeypot-resource-name>`
-- `<UTC-exposure-timestamp>`
-- Public IP addresses, Azure subscription IDs, tenant IDs, resource IDs, passwords, and any real database records
-
