@@ -70,7 +70,6 @@ The intended observation path was an RDP compromise followed by local MySQL disc
 | Command and Control | Application Layer Protocol | T1071 | Network telemetry and process context, if observed |
 | Exfiltration / C2 attempt evidence | Exfiltration Over C2 Channel | T1041 | Denied outbound flows correlated with the compromised host |
 
-> The ATT&CK mapping identifies behaviors the lab is designed to detect or investigate; it does not claim that every listed technique was observed in every run.
 
 ## Build and Instrumentation
 
